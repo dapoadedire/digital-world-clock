@@ -1,0 +1,19 @@
+
+ 
+ .container{
+   border: 2px solid blue;
+   margin: 5px;
+   padding: 10px;
+ }
+
+ .timezone{
+   border: 2px solid red;
+   height: 50px;
+   margin: 2px;
+ }
+
+ .clock{
+   border: 2px solid rgb(45, 201, 45);
+   height: 50px;
+   margin: 2px;
+ }
