@@ -1,71 +1,92 @@
-@font-face {
-    font-family: "Digital-7";
-    src: URL("digital-7.ttf") format("truetype");
-  }
+/** @format */
 
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
- 
-body{
-    background-color: #000000;
-    color: #ffffff;
-    font-size: 20px;
-    margin: 0;
-    padding: 0;
+@font-face {
+  font-family: "Digital-7";
+  src: URL("digital-7.ttf") format("truetype");
 }
-main{
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+main {
   width: 90%;
   margin: 0 auto;
-  max-width: 800px; 
+  max-width: 800px;
 }
 
-main h1{
-  font-family: 'Digital-7', sans-serif;
+main h1 {
+  font-family: "Digital-7", sans-serif;
   font-size: 50px;
   font-weight: 500;
   text-align: center;
   margin-bottom: 2em;
 }
 
+.clock-container {
+  border: 2px solid blue;
+  margin: 8px 0;
+  padding: 1em;
+}
 
- .clock-container{
-   border: 2px solid blue;
-   margin:8px 0;
-   padding: 1em;
- }
+.timezone {
+  /* border: 2px solid red; */
+  padding: 0.5em;
+  font-family: "Digital-7", sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+}
 
- .timezone{
-   /* border: 2px solid red; */
-   padding: 0.5em;
-   font-family: 'Digital-7', sans-serif;  
-    font-size: 2em;
-    font-weight: 500;
- }
+.clock {
+  /* border: 2px solid rgb(45, 201, 45); */
+  font-family: "Digital-7", sans-serif;
+  font-weight: 300;
+  padding: 0.5em;
+  font-size: 2em;
+}
 
+form {
+  max-width: 800px;
+  text-align: center;
+}
 
+#search {
+  border: 1px solid blue;
+  outline: 2px solid blue;
+  width: 65%;
+  max-width: 600px;
+  padding: 10px 0;
+  padding-left: 2%;
+  border-radius: 5px;
+}
+#btn {
+  border: 1px solid blue;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  padding: 10px 0;
+  width: 25%;
+  max-width: 200px;
+}
 
- .clock{
-   /* border: 2px solid rgb(45, 201, 45); */
-   font-family: 'Digital-7', sans-serif;
-   font-weight: 300;
-   padding: 0.5em;
-   font-size: 2em;
- }
+@media screen and (max-width: 600px) {
+  .clock-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
 
+  .timezone {
+    font-size: 1.5em;
+  }
 
- @media screen and (max-width: 600px){
-   .clock-container{
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     padding: 0;
-   }
-
-    .timezone{
-      font-size: 1.5em;
-    }
-
-    .clock{
-      font-size: 1.5em;
-    }
- }
-  
+  .clock {
+    font-size: 1.5em;
+  }
+}
