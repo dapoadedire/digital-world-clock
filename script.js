@@ -650,7 +650,7 @@ form.addEventListener("click", (e) => {
 });
 
 allTimezonesArray.forEach((timezone, index) => {
-  currentTime(allClocksArray[index], timezone, timezones[index + 8]);
+  currentTime(allClocksArray[index], timezone, timezones[index]);
 });
 
 setInterval(() => {
