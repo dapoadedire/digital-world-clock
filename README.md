@@ -27,13 +27,13 @@ Check this out if you're a first-time contributor: https://github.com/firstcontr
 See `contributing.md` for ways to get started.
 
 ## Contributors
-<!-- Copy-paste in your Readme.md file -->
 
-<a href = "https://github.com/dapoadedire/digital-world-clock/graphs/contributors">
-  <img src = "https://contrib.rocks/image?repo = dapoadedire/digital-world-clock"/>
+<a href="https://github.com/dapoadedire/digital-world-clock/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=dapoadedire/digital-world-clock" />
 </a>
 
-Made with [contributors-img](https://contrib.rocks).
+Made with [contrib.rocks](https://contrib.rocks).
+
 
 ## Support
 
