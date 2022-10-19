@@ -21,6 +21,7 @@ HTML, CSS, VannilaJS
 ## Contributing
 
 Contributions are always welcome!
+
 Check this out if you're a first-time contributor: https://github.com/firstcontributions/first-contributions.
 
 See `contributing.md` for ways to get started.
