@@ -1,8 +1,32 @@
-# digital-world-clock
 
-![image](https://user-images.githubusercontent.com/95668340/196351547-e98d9b64-8866-452f-8b58-6d6338b88f5f.png)
-.....
+# Project Title
 
-.....
+Digital World Clock to view time in all timezones. There are over 500 timezones.
 
-![image](https://user-images.githubusercontent.com/95668340/196351641-6852daae-c856-40eb-b915-0dd872aaafd1.png)
+
+
+
+
+## Tech Stack
+
+HTML, CSS, VannilaJS
+
+
+
+
+## Feature(s)
+
+- Search through the timezones.
+- View all timezones.
+## Contributing
+
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+## Support
+
+For support, star the repository. Thanks.
+
+
+
