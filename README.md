@@ -1,5 +1,5 @@
 
-# Project Title
+# Digital World Clock
 
 Digital World Clock to view time in all timezones. There are over 500 timezones.
 
@@ -11,6 +11,9 @@ Digital World Clock to view time in all timezones. There are over 500 timezones.
 
 HTML, CSS, VannilaJS
 
+## Image
+
+![image](https://user-images.githubusercontent.com/95668340/201287276-ac096ffc-45e4-4902-b410-233157622739.png)
 
 
 
