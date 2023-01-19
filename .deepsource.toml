@@ -3,8 +3,5 @@ version = 1
 [[analyzers]]
 name = "javascript"
 
-  [analyzers.meta]
-  plugins = ["react"]
-
 [[transformers]]
 name = "prettier"
